@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetShoeAccounting" targetNamespace="http://tempuri.org/DataSetShoeAccounting.xsd" xmlns:mstns="http://tempuri.org/DataSetShoeAccounting.xsd" xmlns="http://tempuri.org/DataSetShoeAccounting.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetShoeAccounting" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSetShoeAccounting" msprop:Generator_DataSetName="DataSetShoeAccounting">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UsersDB" msprop:Generator_RowEvHandlerName="UsersDBRowChangeEventHandler" msprop:Generator_RowDeletedName="UsersDBRowDeleted" msprop:Generator_RowDeletingName="UsersDBRowDeleting" msprop:Generator_RowEvArgName="UsersDBRowChangeEvent" msprop:Generator_TablePropName="UsersDB" msprop:Generator_RowChangedName="UsersDBRowChanged" msprop:Generator_RowChangingName="UsersDBRowChanging" msprop:Generator_TableClassName="UsersDBDataTable" msprop:Generator_RowClassName="UsersDBRow" msprop:Generator_TableVarName="tableUsersDB" msprop:Generator_UserTableName="UsersDB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_UsersDB" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnPropNameInRow="Id_UsersDB" msprop:Generator_ColumnPropNameInTable="Id_UsersDBColumn" msprop:Generator_ColumnVarNameInTable="columnId_UsersDB" msprop:Generator_UserColumnName="Id_UsersDB" type="xs:int" />
+              <xs:element name="Login" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnPropNameInTable="LoginColumn" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_UserColumnName="Login" type="xs:string" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_UserColumnName="Password" type="xs:string" minOccurs="0" />
+              <xs:element name="FirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_UserColumnName="FirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_UserColumnName="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="Patronymic" msprop:Generator_ColumnPropNameInRow="Patronymic" msprop:Generator_ColumnPropNameInTable="PatronymicColumn" msprop:Generator_ColumnVarNameInTable="columnPatronymic" msprop:Generator_UserColumnName="Patronymic" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone" msprop:Generator_ColumnPropNameInRow="Phone" msprop:Generator_ColumnPropNameInTable="PhoneColumn" msprop:Generator_ColumnVarNameInTable="columnPhone" msprop:Generator_UserColumnName="Phone" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="id_StatusUsersDB" msprop:Generator_ColumnPropNameInRow="id_StatusUsersDB" msprop:Generator_ColumnPropNameInTable="id_StatusUsersDBColumn" msprop:Generator_ColumnVarNameInTable="columnid_StatusUsersDB" msprop:Generator_UserColumnName="id_StatusUsersDB" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StatusUsersDB" msprop:Generator_RowEvHandlerName="StatusUsersDBRowChangeEventHandler" msprop:Generator_RowDeletedName="StatusUsersDBRowDeleted" msprop:Generator_RowDeletingName="StatusUsersDBRowDeleting" msprop:Generator_RowEvArgName="StatusUsersDBRowChangeEvent" msprop:Generator_TablePropName="StatusUsersDB" msprop:Generator_RowChangedName="StatusUsersDBRowChanged" msprop:Generator_RowChangingName="StatusUsersDBRowChanging" msprop:Generator_TableClassName="StatusUsersDBDataTable" msprop:Generator_RowClassName="StatusUsersDBRow" msprop:Generator_TableVarName="tableStatusUsersDB" msprop:Generator_UserTableName="StatusUsersDB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_StatusUsersDB" msprop:Generator_ColumnPropNameInRow="Id_StatusUsersDB" msprop:Generator_ColumnPropNameInTable="Id_StatusUsersDBColumn" msprop:Generator_ColumnVarNameInTable="columnId_StatusUsersDB" msprop:Generator_UserColumnName="Id_StatusUsersDB" type="xs:int" />
+              <xs:element name="NameStatusUsersDB" msprop:Generator_ColumnPropNameInRow="NameStatusUsersDB" msprop:Generator_ColumnPropNameInTable="NameStatusUsersDBColumn" msprop:Generator_ColumnVarNameInTable="columnNameStatusUsersDB" msprop:Generator_UserColumnName="NameStatusUsersDB" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PK_UsersDB" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UsersDB" />
+      <xs:field xpath="mstns:Id_UsersDB" />
+    </xs:unique>
+    <xs:unique name="FK_StatusUsersDB">
+      <xs:selector xpath=".//mstns:UsersDB" />
+      <xs:field xpath="mstns:id_StatusUsersDB" />
+    </xs:unique>
+    <xs:unique name="PK_StatusUsersDB" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StatusUsersDB" />
+      <xs:field xpath="mstns:Id_StatusUsersDB" />
+    </xs:unique>
+    <xs:keyref name="FK_StatusUsersDB_UsersDB" refer="PK_StatusUsersDB" msprop:rel_Generator_UserParentTable="StatusUsersDB" msprop:rel_Generator_UserChildTable="UsersDB" msprop:rel_Generator_RelationVarName="relationFK_StatusUsersDB_UsersDB" msprop:rel_Generator_UserRelationName="FK_StatusUsersDB_UsersDB" msprop:rel_Generator_ChildPropName="GetUsersDBRows" msprop:rel_Generator_ParentPropName="StatusUsersDBRow">
+      <xs:selector xpath=".//mstns:UsersDB" />
+      <xs:field xpath="mstns:id_StatusUsersDB" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

@@ -9,11 +9,11 @@ namespace ForImprove2._0
     {
         public static MySqlConnection GetDBConnection()
         {
-            string host = "localhost";
+            string host = "194.58.121.94";
             int port = 3306;
-            string database = "ForImprove2tochka0";
-            string username = "root";
-            string password = "root";
+            string username = "app_user";
+            string password = "password";
+            string database = "shoeaccounting";
 
             return DBMySQLUtils.GetDBConnection(host,port,database,username,password);
         }
